@@ -46,3 +46,31 @@ function teste(){
     res.innerHTML += `<p>As notas obtidas fora ${n1} e ${n2}`
     res.innerHTML += `<p>A media final sera de ${media}`
 }*/
+
+/*
+function teste(){
+    var num = Number(prompt("Digite o numero"))
+    var res = document.querySelector('section#res')
+
+    res.innerHTML = `<p>O numero a ser analisado é ${num}</p><hr>`
+    res.innerHTML += `<p>O seu valor absoluto é ${Math.abs(num)}</p>`
+    res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}</p>`
+    res.innerHTML += `<p>O valor inteiro mais proximo é ${Math.round(num)}</p>`
+    res.innerHTML += `<p>A sua raiz quadrada é ${Math.sqrt(num)}</p>`
+    res.innerHTML += `<p>A sua raiz cubica é ${Math.cbrt(num)}</p>`
+    res.innerHTML += `<p>O valor de ${num}<sup>2</sup> é ${Math.pow(num, 2)}</p>`
+    res.innerHTML += `<p>O valor de ${num}<sup>3</sup> é ${Math.pow(num, 3)}</p>`
+}*/
+
+var contador = 0
+var res = document.querySelector('section#result')
+
+function contar(){
+    contador ++
+    result.innerHTML = `<p>O contador esta em <mark>${contador}</mark> cliques</p>`
+}
+
+function zerar(){
+    contador = 0
+    result.innerHTML = null
+}
