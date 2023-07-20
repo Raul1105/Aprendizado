@@ -12,7 +12,7 @@ function teste(){
 /*mostrar na tela
 function teste(){
     var nome = prompt('Digite seu nome')
-    var res =document.getElementById('resultado')
+    var res = document.getElementById('resultado')
     res.innerHTML = `<p>Ola, ${nome}! Seja bem vindo :)`
 }*/
 
@@ -62,6 +62,7 @@ function teste(){
     res.innerHTML += `<p>O valor de ${num}<sup>3</sup> é ${Math.pow(num, 3)}</p>`
 }*/
 
+/*
 var contador = 0
 var res = document.querySelector('section#result')
 
@@ -73,4 +74,41 @@ function contar(){
 function zerar(){
     contador = 0
     result.innerHTML = null
+}*/
+
+/*Varios botões
+function b1(){
+    res.innerHTML += `<p>Você clicou no botão 1<p>`
 }
+
+function b2(){
+    res.innerHTML += `<p>Você clicou no botão 2<p>`
+}
+
+function b3(){
+    res.innerHTML += `<p>Você clicou no botão 3<p>`
+}
+
+function b4(){
+    res.innerHTML += `<p>Você clicou no botão 4<p>`
+}*/
+
+/*Calculando media 2.0
+function calcular(){
+    var nome = prompt('Digite seu nome')
+    var n1 = Number(prompt('Digite a primeira nota'))
+    var n2 = Number(prompt('Digite a segunda nota'))
+    media = (n1 + n2) / 2
+    
+    if(media >= 6){
+        msg = 'Aprovado!'
+    } else {
+        msg = 'Reprovado!'
+    }
+
+    var res = document.querySelector('section#saida')
+    res.innerHTML = `<br>Calculando a media final de <mark>${nome}</mark>.<br><br>`
+    res.innerHTML += `As notas obtidas foram <mark>${n1}</mark> e <mark>${n2}</mark>.<br><br>`
+    res.innerHTML += `A media final sera <mark>${media}</mark>.<br><br>`
+    res.innerHTML += `A mensagem que temos é <mark>${msg}</mark>`
+}*/
