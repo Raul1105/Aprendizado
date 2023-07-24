@@ -112,3 +112,71 @@ function calcular(){
     res.innerHTML += `A media final sera <mark>${media}</mark>.<br><br>`
     res.innerHTML += `A mensagem que temos é <mark>${msg}</mark>`
 }*/
+
+/*Impar ou par
+
+function teste(numero){
+    numero = Number(prompt('Digite um numero'))
+
+    if(numero % 2 == 0){
+        msg = 'PAR'
+    }   else {
+        msg = 'IMPAR'
+    }
+
+    var res = document.querySelector('section#res')
+    res.innerHTML = `<p>O numero ${numero} que foi digitado é ${msg}</p>`
+}*/
+
+/*Comparando valores
+function teste(n1, n2){
+    n1 = Number(prompt('Digite um numer'))
+    n2 = Number(prompt('Digite outro numero'))
+
+    if (n1 > n2){
+        msg = `Analisando os valores entre <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <mark>${n1}</mark>`
+    } else {
+        msg = `Analisando os valores entre <mark>${n1}</mark> e <mark>${n2}</mark>, o maior valor é <mark>${n2}</mark>`
+    }
+
+    var res = document.querySelector('section#res')
+    res.innerHTML = `${msg}` 
+}*/
+
+/*Data atual
+function teste(){
+    var data = new Date
+
+    var res = document.querySelector('section#res')
+    res.innerHTML = `<p>O que eu recebi do sistema foi ${data}</p>`
+}*/
+
+
+/*Calculando idade
+function teste(ano, nascimento, idade){
+    var data_atual = new Date()
+    ano = data_atual.getFullYear()
+    nascimento = Number(prompt('Digite o ano de nascimento'))
+    idade = ano - nascimento 
+
+    var res = document.querySelector('section#res')
+    res.innerHTML = `Quem nasceu em ${nascimento} ira completar <b>${idade}</b> em ${ano}`
+}*/
+
+/*Numero aleatorio
+    
+    function aleatorio(min, max, num){
+    min = Math.ceil(1)
+    max = Math.floor(100)
+    num = Math.floor(Math.random() * (max - min) + min)
+
+    var res = document.querySelector('section#res')
+    res.innerHTML += `<p>Acabei de pensar no numero <mark>${num}</mark><p>`
+}
+
+function limpar(limpar){
+    var res = document.querySelector('section#res')
+    res.innerHTML = null
+}*/
+
+/*Adivinhando o numero*/
