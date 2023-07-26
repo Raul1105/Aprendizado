@@ -179,4 +179,18 @@ function limpar(limpar){
     res.innerHTML = null
 }*/
 
-/*Adivinhando o numero*/
+/*desafio fo iguinho
+
+ var a = prompt('')
+
+ var b = prompt('')
+
+ console.log(`${a} ${b}`)
+
+ a = a * b
+
+ b = a / b
+
+ a = a / b
+
+ console.log(`${a} ${b}`)*/
