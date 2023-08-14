@@ -179,8 +179,7 @@ function limpar(limpar){
     res.innerHTML = null
 }*/
 
-/*desafio fo iguinho
-
+/*
  var a = prompt('')
 
  var b = prompt('')
