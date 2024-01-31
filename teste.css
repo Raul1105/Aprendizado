@@ -1,0 +1,23 @@
+.cabeçalho {
+    position:relative;
+    left:18px;
+    padding-left: 10px;
+}
+
+.UI {
+    position: relative;
+    padding-left: 40px;
+}
+
+.UTI {
+    position: relative;
+    padding-left: 30px;
+}
+
+.letra {
+}
+
+td {
+    border: 1px solid rgb(255, 33, 33);
+
+}
